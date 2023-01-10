@@ -1,0 +1,21 @@
+body { 
+    background-color: rgb(106, 175, 215);
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+h1 {
+    color:white;
+    background-color: darkblue;
+    padding: 20px;
+}
+h3 {
+    color: black;
+}
+h2{
+    color: dimgray;
+}
+a:hover{
+    color: blueviolet;
+}

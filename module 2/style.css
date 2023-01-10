@@ -1,0 +1,33 @@
+.first{
+    padding: 40px;
+    background-color: darkgreen;
+    margin: 30px;
+}
+
+body{
+    border:solid grey 40px;
+}
+
+.first h2{
+    color: crimson;
+}
+.first{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+}
+
+.second{
+    background-color:rgb(233, 156, 25);
+    margin: 40px;
+    font-weight: bold;
+
+}
+
+.second h2{
+    color: deepskyblue;
+}
+
+h1{
+    color: chartreuse;
+    padding-left: 50px;
+}
