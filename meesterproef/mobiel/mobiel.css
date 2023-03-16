@@ -1,3 +1,14 @@
+
+@media screen and (max-width: 605px) {
+  .nav{
+    display: none;
+  }
+  .foto_mm img{
+    width: 440px;
+  }
+  .foto_brood img{
+    width: 440px;
+  }
 #menu__toggle {
     opacity: 0;
   }
@@ -56,12 +67,12 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
     z-index: 998;
+    font-family: Arial, sans-serif;
   }
   .menu__item {
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -169,39 +180,173 @@
     background-color: black;
     margin: 0 10px 0 10px;
   }
+  h2{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+  }
+  .m-foto img{
+    width: 195px;
+    padding-left: 30%;
+  }
+  h3{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+  .h-foto img{
+    width: 300px;
+    padding-left: 20%;
+  }
+  .plus img{
+    width:350px; 
+    height:175px;
+    padding-left: 15%;
+  }
+  .action img{
+    width:350px ;
+    height:165px;
+    padding-left: 15%;
+  }
+  .school{
+    padding-left: 15%;
+  }
+}
+@media screen and (min-width: 605px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .menu__box{
+    display: none;
+  }
+  nav {
+    margin: 27px auto 0;
+  
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1) {
+    width: 100px;
+  }
+  a:nth-child(2) {
+    width: 110px;
+  }
+  a:nth-child(3) {
+    width: 100px;
+  }
+  a:nth-child(4) {
+    width: 160px;
+  }
+  a:nth-child(5) {
+    width: 120px;
+  }
+  
+  body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #2c3e50;
+  }
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+  }
+  
+  p {
+      font-family: Arial, sans-serif;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: #000000;
+      font-size: 16px;
+  }
+  
+  span {
+      color: #2BD6B4;
+  }
+  .m-foto{
+    text-align: center;
+  }
+  .h-foto{
+    text-align: center;
+  }
+  .plus img{
+    width:350px; 
+    height:175px;
+    
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+  .action img{
+    width:350px ;
+    height:165px;
+    margin-left: 38%;
+    margin-right: 38%;
+  }
+  .school{
+    text-align: center;
+  }
 
-  body{
-    background-color: rgb(164, 146, 200);
+  .foto_mm img{
+    width: 350px;
+  }
+  .foto_brood img{
+    width: 350px;
+  }
+
+  .h-foto img{
+    width: 350px;
+    text-align: center;
+  }
+  .m-foto img{
+    width: 325px;
+    text-align: center;
+  }
+  
+}
+
+
+body{
+  background-color: rgb(164, 146, 200);
 }
 
 h1{
+font-family: Arial, sans-serif;
+font-weight: bold;
+background-color: #483d8b;
+text-align: center;
+}
+.gmel{
   font-family: Arial, sans-serif;
-  font-weight: bold;
-  background-color: #483d8b;
-  padding-left: 150px;
+  font-size: 30px;
+  color: blue;
+  text-decoration: none;
 }
-h2{
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-}
-.m-foto{
-  padding-left: 30%;
-}
-h3{
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  margin-left: 20%;
-  margin-right: 10%;
-}
-.h-foto{
-  padding-left: 30%;
-}
-.plus{
-  padding-left: 15%
-}
-.action{
-  padding-left: 15%;
-}
-.school{
-  padding-left: 15%;
+a:hover{
+  color: rgb(132, 0, 255);
 }
